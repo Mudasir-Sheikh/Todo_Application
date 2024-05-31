@@ -1,0 +1,95 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+    }
+    .Main{
+        background-image: url("jeffrey-grospe-EKJA3A9vXlo-unsplash.jpg");
+        min-height: 100vh;
+        background-size:cover;
+        background-position: center;
+        padding-top: 40px;
+    }
+    
+    .wrapper{
+        width: 55%;
+        min-height: 60vh;
+        margin: auto;    /* background: purple; */
+        color: white;
+        padding: 20px;
+        background: transparent;
+        border: 2px solid rgba(255, 255, 255, .2);
+        border-radius: 30px;
+        backdrop-filter: blur(30px);
+        box-shadow: 8px 5px 10px rgba(255, 255, 255, .2);
+    }
+    
+    .todoMain{
+    
+        display: flex;
+        width: 88%;
+        margin: auto;
+        padding: 15px 0px;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .todoInput {
+        width: 100%;
+        height: 20%;
+        text-align: center;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    
+    }
+    .todoInput input{
+        width: 85%;
+        padding: 10px;
+        
+    }
+    .Add_AllDel_btn button {
+        width: 9em;
+        height: 2.2em;
+        margin: 5px 6px;
+    }
+    
+    .todo_ol{
+        width: 85%;
+        margin: 20px;
+        display: flex;
+        margin: auto;
+    
+    }
+    
+    
+    #ol{
+        width: 100%;
+    }
+    #ol li{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 3em;
+        gap: 10px;
+        margin: 10px 0px;
+        /* border: 2px solid black; */
+        padding: 10px 5px 10px 16px;
+        background-color: rgb(20, 18, 18);
+        
+    }
+    #EditBtn , #DeleteBtn{
+        margin: 0px 5px;   
+    }
+    
+    
+    #edit_input{
+        height: 35px;
+    }
+    
+    

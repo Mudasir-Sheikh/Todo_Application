@@ -1,0 +1,43 @@
+#EditBtn , #DeleteBtn , #complete , #done , #Addbtn , #Delbtn{
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0px 5px;
+
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    overflow: hidden;
+    
+
+
+
+}
+
+#EditBtn img , #DeleteBtn img, #complete img , #done img , #Addbtn img ,#Delbtn img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    
+}
+
+#DeleteBtn{
+    width: 55px;
+    height: 52px;
+    padding-top: 3px;
+}
+
+#done {
+    width: 30px;
+    height: 30px;
+    padding: auto;
+
+}
+#editInputDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
