@@ -84,6 +84,15 @@ function edit_todo(element){
     editInputDiv.append(edit_input , done)
     li.prepend(editInputDiv);
 
+
+
+
+//We Adding Class Hidden so that user can get only one input field for editing NOT MANY for that we pass hide class
+    EditBtn.setAttribute("class" , "EditBtnHide")
+
+
+
+
  
 }
 function done(element){
@@ -91,6 +100,11 @@ function done(element){
     var newValue = edit_input.value
     element.parentNode.parentNode.firstChild.nextSibling.nodeValue = newValue
     element.parentNode.parentNode.firstChild.remove()
+
+//We Added Class Show so that user can get Back the Edit Button for Editting by pass show class
+
+    EditBtn.setAttribute("class" , "EditBtnShow")
+
     
 }
 

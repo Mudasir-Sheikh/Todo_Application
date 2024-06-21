@@ -41,3 +41,11 @@
     height: 100%;
 }
 
+
+.EditBtnHide{
+    visibility: hidden;
+}
+
+.EditBtnShow{
+    visibility: visible;
+}
